@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    margin: 50px;
+    border: 2px solid black;
+}
+.flex-item-1 {
+    height: 100px;
+    margin-bottom: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item-1 .box-1 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+    flex: 1;
+    
+}
+
+.flex-item-1 .box-2 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+    flex: 5;
+}
+
+.flex-item-1 .box-3 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+    flex: 1;
+}
+
+.flex-item-2 {
+    height: 100px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item-2 .box-1 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+
+    flex: 5;    
+}
+
+.flex-item-2 .box-2 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+
+    flex: 1;
+}
+
+.flex-item-2 .box-3 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+    
+    flex: 2;
+}
+
+.flex-item-3 {
+    height: 100px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item-3 .box-1 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+
+    flex: 1;
+    
+}
+
+.flex-item-3 .box-2 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+   
+    flex: 2;
+}
+
+.flex-item-3 .box-3 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+    
+    flex: 5;
+}
+
+.flex-item-4 {
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item-4 .box-1 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+    
+    flex: 2;
+}
+
+.flex-item-4 .box-2 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+
+    flex: 1;
+}
+
+.flex-item-4 .box-3 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+
+    flex: 2;
+}
+
+.flex-item-4 .box-4 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+
+    flex: 1;
+}
+
+.flex-item-4 .box-5 {
+    background-color: coral;
+    border: 2px solid black;
+    margin: 10px;
+
+    flex: 2;
+}
